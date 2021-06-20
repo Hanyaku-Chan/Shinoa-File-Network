@@ -3,7 +3,7 @@ const app = express();
 const fs = require("fs");
 
 app.get("/", function (req, res) {
-    res.send("This is the Shinoa File Network.")
+    res.send("This is the Shinoa File Network.");
 });
 
 app.get('/ping/', function (req, res) {
